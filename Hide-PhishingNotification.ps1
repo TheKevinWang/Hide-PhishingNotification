@@ -13,6 +13,7 @@ Furthermore, this script provides the ability to delete the rule to clean up.
 Note: There is no way to permantently delete an email using rules, so the phishing notification will be moved to the deleted folder instead. 
 TODO: add more fine grained rules, such as when subject includes "notification" AND body contains "clicked". Would require multiple rules. 
 TODO: add capability to check and permanently delete phishing notification 
+TODO: Port to js or vbs
 VBS reference: https://msdn.microsoft.com/en-us/library/bb206765(v=office.12).aspx
 
 .PARAMETER RuleName
