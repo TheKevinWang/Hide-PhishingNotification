@@ -32,7 +32,7 @@ Create rule named "{Firstname}'s Rule" that will move emails to deleted folder i
 #>
   Param([string]$RuleName = (Get-Culture).TextInfo.ToTitleCase(($env:UserName -split " ")[0]) + "'s Rule", #ex: John's Rule
         [string]$FromEmail, 
-        [string[]]$BodyOrSubjectWords = @("phish","hack","malware","security incident"), 
+        [string[]]$BodyOrSubjectWords = @("phish","hack","malware","security incident","scam"), 
         [switch]$Cleanup) #delete rule
     #Code template from: 
     #http://dandarache.wordpress.com/2011/07/25/using-powershell-to-create-rules-in-outlook/
